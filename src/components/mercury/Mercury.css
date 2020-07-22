@@ -3,8 +3,6 @@
     width: 70px;
     margin-top: -35px;
     margin-left: -35px;
-    -webkit-animation: orb 7.1867343561s linear infinite;
-            animation: orb 7.1867343561s linear infinite;
   }
   .mercury:before {
     height: 4px;

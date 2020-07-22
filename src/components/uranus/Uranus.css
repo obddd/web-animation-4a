@@ -3,8 +3,6 @@
     width: 520px;
     margin-top: -260px;
     margin-left: -260px;
-    -webkit-animation: orb 2512.4001967933s linear infinite;
-            animation: orb 2512.4001967933s linear infinite;
   }
   .uranus:before {
     height: 10px;

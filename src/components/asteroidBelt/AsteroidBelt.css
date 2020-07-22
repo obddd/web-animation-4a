@@ -5,8 +5,6 @@
     width: 300px;
     margin-top: -150px;
     margin-left: -150px;
-    -webkit-animation: orb 179.9558282773s linear infinite;
-            animation: orb 179.9558282773s linear infinite;
     overflow: hidden;
   }
   .asteroids-belt:before {

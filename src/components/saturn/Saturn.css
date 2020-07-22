@@ -3,8 +3,6 @@
     width: 440px;
     margin-top: -220px;
     margin-left: -220px;
-    -webkit-animation: orb 882.6952471456s linear infinite;
-            animation: orb 882.6952471456s linear infinite;
   }
   .saturn:before {
     height: 12px;
@@ -20,15 +18,9 @@
     width: 4.676%;
     left: 50%;
     top: 0px;
-    -webkit-transform: rotateZ(-52deg);
-            transform: rotateZ(-52deg);
     margin-left: -2.3%;
     margin-top: -1.2%;
     border-radius: 50% 50% 50% 50%;
     box-shadow: 0 1px 0 1px #987641, 3px 1px 0 #987641, -3px 1px 0 #987641;
-    -webkit-animation: orb 882.6952471456s linear infinite;
-            animation: orb 882.6952471456s linear infinite;
-    animation-direction: reverse;
-    -webkit-transform-origin: 52% 60%;
-            transform-origin: 52% 60%;
+   
   }

@@ -1,20 +1,3 @@
-/*
-  Malik Dellidj - @Dathink
-
-  Solar System orbit animation true time scaled
-
-  Revolution of planets in earth days (from Wikipedia)
-  Mercury : ~87,5 days
-  Venus : ~224,7 days
-  Earth : ~365,2563 days
-    + Moon : ~27,3216 days (around earth)
-  Mars : ~687 days (~1,8 year)
-  Jupiter : ~4 331 days (~12 years)
-  Saturn : ~10 747 days (~30 years)
-  Uranus : ~30 589 days (~84 years)
-  Neptune : ~59 802 days (~165 years)
-  Pluto : ~90 580 days (~248 years)
-*/
 *,
 *:before,
 *:after {
@@ -37,36 +20,9 @@ body {
   background-attachment: fixed;
 }
 
-.hide {
-  display: none;
-}
 
-.links {
-  margin-top: 5px !important;
-  font-size: 1em !important;
-}
 
-@-webkit-keyframes orb {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(-360deg);
-            transform: rotate(-360deg);
-  }
-}
 
-@keyframes orb {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(-360deg);
-            transform: rotate(-360deg);
-  }
-}
 
 
 

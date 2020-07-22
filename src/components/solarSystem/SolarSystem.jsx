@@ -13,19 +13,23 @@ import Neptune from '../neptune/Neptune';
 import Pluto from '../pluto/Pluto';
 
 const SolarSystem = () => {
+  const yearInSec = 30000; // 1 Earth year = 30 sec
+  const revolution = (planetDaysInYear) => {
+    return (planetDaysInYear * yearInSec) / 365.2563; //Earth reference.
+  };
   return (
     <div className="solar-syst">
       <Sun />
-      <Mercury />
-      <Venus />
-      <Earth />
-      <Mars />
-      <AsteroidBelt />
-      <Jupiter />
-      <Saturn />
-      <Uranus />
-      <Neptune />
-      <Pluto />
+      <Mercury rev={revolution} />
+      <Venus rev={revolution} />
+      <Earth rev={revolution} />
+      <Mars rev={revolution} />
+      <AsteroidBelt rev={revolution} />
+      <Jupiter rev={revolution} />
+      <Saturn rev={revolution} />
+      <Uranus rev={revolution}/>
+      <Neptune rev={revolution} />
+      <Pluto rev={revolution} />
     </div>
   );
 };

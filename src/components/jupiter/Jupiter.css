@@ -3,8 +3,6 @@
     width: 340px;
     margin-top: -170px;
     margin-left: -170px;
-    -webkit-animation: orb 355.7228171013s linear infinite;
-            animation: orb 355.7228171013s linear infinite;
   }
   .jupiter:before {
     height: 18px;

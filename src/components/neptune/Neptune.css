@@ -3,8 +3,6 @@
     width: 630px;
     margin-top: -315px;
     margin-left: -315px;
-    -webkit-animation: orb 4911.7838624549s linear infinite;
-            animation: orb 4911.7838624549s linear infinite;
   }
   .neptune:before {
     height: 10px;
