@@ -1,10 +1,9 @@
 import React from 'react';
+import Animation from './components/animation/Animation'
 
 const App = () => {
   return (
-    <div>
-      I will be a web animation page
-    </div>
+      <Animation/>
   );
 };
 
