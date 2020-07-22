@@ -12,11 +12,9 @@ const Description = () => {
         second of the
         <br />
         <code>$year-in-second</code> {' '}
-        variable to increase the speed of revolutions. Here 1 year = 30 seconds.
-      </p>
-      <p className="hide">
-        Note the css tricks for the Saturn rings (box-shadow) and reverse
-        animation to compensate the orbit.
+        variable to increase the speed of revolutions. 
+        <br />
+        Here 1 year of Earth = 30 seconds.
       </p>
       <hr />
     </div>
