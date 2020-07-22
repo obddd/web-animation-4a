@@ -1,0 +1,15 @@
+.jupiter {
+    height: 340px;
+    width: 340px;
+    margin-top: -170px;
+    margin-left: -170px;
+    -webkit-animation: orb 355.7228171013s linear infinite;
+            animation: orb 355.7228171013s linear infinite;
+  }
+  .jupiter:before {
+    height: 18px;
+    width: 18px;
+    background: #c76e2a;
+    margin-top: -9px;
+    margin-left: -9px;
+  }

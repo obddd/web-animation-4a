@@ -1,0 +1,16 @@
+.uranus {
+    height: 520px;
+    width: 520px;
+    margin-top: -260px;
+    margin-left: -260px;
+    -webkit-animation: orb 2512.4001967933s linear infinite;
+            animation: orb 2512.4001967933s linear infinite;
+  }
+  .uranus:before {
+    height: 10px;
+    width: 10px;
+    background: #b5e3e3;
+    margin-top: -5px;
+    margin-left: -5px;
+  }
+  

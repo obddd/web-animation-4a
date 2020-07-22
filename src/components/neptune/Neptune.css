@@ -1,0 +1,15 @@
+.neptune {
+    height: 630px;
+    width: 630px;
+    margin-top: -315px;
+    margin-left: -315px;
+    -webkit-animation: orb 4911.7838624549s linear infinite;
+            animation: orb 4911.7838624549s linear infinite;
+  }
+  .neptune:before {
+    height: 10px;
+    width: 10px;
+    background: #175e9e;
+    margin-top: -5px;
+    margin-left: -5px;
+  }

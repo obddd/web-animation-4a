@@ -1,0 +1,15 @@
+.mars {
+    height: 190px;
+    width: 190px;
+    margin-top: -95px;
+    margin-left: -95px;
+    -webkit-animation: orb 56.4261314589s linear infinite;
+            animation: orb 56.4261314589s linear infinite;
+  }
+  .mars:before {
+    height: 6px;
+    width: 6px;
+    background: #cf3921;
+    margin-top: -3px;
+    margin-left: -3px;
+  }

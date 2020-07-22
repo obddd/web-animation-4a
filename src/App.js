@@ -1,9 +1,9 @@
 import React from 'react';
-import Animation from './components/animation/Animation'
+import Container from './components/container/Container'
 
 const App = () => {
   return (
-      <Animation/>
+      <Container/>
   );
 };
 
