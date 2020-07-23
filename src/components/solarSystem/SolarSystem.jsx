@@ -17,6 +17,7 @@ const SolarSystem = () => {
   const revolution = (planetDaysInYear) => {
     return (planetDaysInYear * yearInSec) / 365.2563; //Earth reference.
   };
+  console.log(yearInSec)
   return (
     <div className="solar-syst">
       <Sun />
